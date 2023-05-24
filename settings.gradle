@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        mavenLocal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://voyagegroup.github.io/FluctSDK-Android/m2/repository' }
+        mavenLocal()
+    }
+}
+rootProject.name = "AdMobDemoCurrentProd"
+include ':app'
